@@ -81,7 +81,7 @@ phone_input = st.text_input("📞 Enter Phone Number", placeholder="123-456-7890
 # -------------------- Combined Search --------------------
 def combined_search():
     RECORDS_API = "https://sf-api-3.onrender.com/search"
-    ORDER_API = "https://sf-api-3.onrender.com/search_order"
+    ORDERS_API = "https://sf-api-3.onrender.com/search_order"
 
     def fetch_records(email, phone):
         try:
